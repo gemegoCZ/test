@@ -1,7 +1,7 @@
 import './App.css';
 import './components/Page.css'
 import HomePage from "./components/HomePage";
-import Page1 from "./components/Falling_star";
+import Falling_star from "./components/Falling_star";
 import Page2 from "./components/Page2";
 import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import Nletter from "./components/images/Nletter.png";
