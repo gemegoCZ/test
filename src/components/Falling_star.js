@@ -1,7 +1,7 @@
 import './Page.css';
 
 
-function Page1({children}) {
+function Falling_star({children}) {
     return (
 
         <div className='page'>
@@ -35,4 +35,4 @@ function Page1({children}) {
     )
 }
 
-export default Page1;
+export default Falling_star;
