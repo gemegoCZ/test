@@ -27,7 +27,7 @@ function HomePage({children}) {
 
             <div className="right">
                 <div className="rightMid">
-                    HomePagegsdgsdgsdfg
+                    HomePage
                 </div>
             </div>
         </div>
