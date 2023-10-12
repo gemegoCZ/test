@@ -1,7 +1,7 @@
 import './App.css';
 import './components/Page.css'
 import HomePage from "./components/HomePage";
-import Falling_star from "./components/Falling_star";
+import FallingStar from "./components/Falling_star";
 import Page2 from "./components/Page2";
 import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import Nletter from "./components/images/Nletter.png";
@@ -17,7 +17,7 @@ function App() {
                     </Link>
                 </div>
                 <div className="Topdif">
-                    <Link to='Falling_star'>
+                    <Link to='FallingStar'>
                         <p>Falling star</p>
                     </Link>
                 </div>
@@ -29,7 +29,7 @@ function App() {
             </div>
             <Routes>
                 <Route path='/' element={<HomePage/>} classname='TopDif'/>
-                <Route path='/Falling_star' element={<Falling_star/>} classname='TopDif'/>
+                <Route path='/FallingStar' element={<FallingStar/>} classname='TopDif'/>
                 <Route path='/Page2' element={<Page2/>} classname='TopDif'/>
             </Routes>
         </Router>
