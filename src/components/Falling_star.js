@@ -27,7 +27,7 @@ function Falling_star({children}) {
 
             <div className="right">
                 <div className="rightMid">
-                    Page1
+                    Falling_star
                 </div>
             </div>
         </div>
