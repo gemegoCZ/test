@@ -1,0 +1,57 @@
+
+.page {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: darkgrey;
+}
+
+.left {
+    display: flex;
+    justify-content: row;
+    width: 200px;
+    height: 819px;
+    padding: 0;
+    background-color: dimgray;
+    border: 6px solid darkgray;
+    border-radius: 20px;
+}
+
+.leftMid {
+    margin-top: 13px;
+}
+
+.leftLink {
+    padding: 4px;
+    width: 162px;
+    color: beige;
+    text-indent: 4px;
+    font-size: 20px;
+}
+
+.leftLink:hover {
+    background: linear-gradient(
+            90deg,
+            rgba(128, 128, 128, 1) 0%,
+            rgba(105, 105, 105, 0) 100%
+    );
+    cursor: pointer;
+
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 1%;
+    width: 85.8%;
+    height: 100%;
+    background-color: gray;
+    border: 6px solid darkgray;
+    border-radius: 20px;
+    margin-left: -6px;
+}
+
+.rightMid {
+
+
+}
