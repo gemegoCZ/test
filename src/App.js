@@ -17,7 +17,7 @@ function App() {
                     </Link>
                 </div>
                 <div className="Topdif">
-                    <Link to='/Page1'>
+                    <Link to='Falling_star'>
                         <p>Falling star</p>
                     </Link>
                 </div>
@@ -29,7 +29,7 @@ function App() {
             </div>
             <Routes>
                 <Route path='/' element={<HomePage/>} classname='TopDif'/>
-                <Route path='/Page1' element={<Falling_star/>} classname='TopDif'/>
+                <Route path='/Falling_star' element={<Falling_star/>} classname='TopDif'/>
                 <Route path='/Page2' element={<Page2/>} classname='TopDif'/>
             </Routes>
         </Router>
